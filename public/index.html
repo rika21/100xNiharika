@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat App</title>
+</head>
+<body>
+  <div>
+    <label for="room">Room: </label>
+    <input type="text" id="room" />
+    <button id="joinBtn">Join Room</button>
+  </div>
+  <div>
+    <ul id="messages"></ul>
+  </div>
+  <div>
+    <input type="text" id="message" />
+    <button id="sendBtn">Send</button>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
